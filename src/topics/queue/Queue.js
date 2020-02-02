@@ -1,16 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import {getQueue} from './getQueue'
+import { getQueue } from "./getQueue";
 
-
-function Queue(){
-  return (
-    <div>
-      {getQueue()}
-    </div>
-  )
+function Queue() {
+  return <div>{getQueue()}</div>;
 }
 
-export default Queue
-
-
+export default Queue;
