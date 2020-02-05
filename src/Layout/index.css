@@ -18,7 +18,7 @@ body,
 
 .Layout .Head {
   grid-row: 1 / 2;
-  background-color: darkblue;
+  background-color: cyan;
 }
 
 .Layout .Content {
@@ -27,5 +27,5 @@ body,
 
 .Layout .Foot {
   grid-row: 3 / 4;
-  background-color: darkblue;
+  background-color: cyan;
 }
