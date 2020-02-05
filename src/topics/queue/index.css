@@ -3,10 +3,16 @@
   justify-self: center;
 }
 
+.Queue::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+
 .Queue * + * {
   margin-left: 10px;
 }
-
 
 .Queue input {
   float: left;
@@ -16,7 +22,6 @@
   width: 30px;
   text-align: center;
 }
-
 
 .Queue .solved {
   background-color: chartreuse;

@@ -1,11 +1,11 @@
 import React from "react";
-import Queue from "../../topics/queue";
+import Multy from '../Multy'
 import './index.css'
 
 function Content() {
   return (
     <div className="Content">
-      <Queue />
+      <Multy />
     </div>
   );
 }

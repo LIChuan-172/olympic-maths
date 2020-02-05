@@ -1,0 +1,8 @@
+.Multy {
+  justify-self: center;
+  align-self: center;
+}
+
+.Multy > * + * {
+  margin-top: 30px
+}
