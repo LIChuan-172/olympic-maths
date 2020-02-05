@@ -1,12 +1,18 @@
 import React from "react";
 import { render } from "react-dom";
-
-import Queue from "./topics/queue/Queue";
+import Layout from "./Layout";
+import Head from "./Components/Head";
+import Content from "./Components/Content";
+import Foot from "./Components/Foot";
 
 function App() {
   return (
     <div id="app">
-      <Queue />
+      <Layout>
+        <Head />
+        <Content />
+        <Foot />
+      </Layout>
     </div>
   );
 }

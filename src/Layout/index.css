@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#app,
+.Layout {
+  height: 100%;
+}
+
+.Layout {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+}
+
+.Layout .Head {
+  grid-row: 1 / 2;
+  background-color: darkblue;
+}
+
+.Layout .Content {
+  grid-row: 2 / 3;
+}
+
+.Layout .Foot {
+  grid-row: 3 / 4;
+  background-color: darkblue;
+}

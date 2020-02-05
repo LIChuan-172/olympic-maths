@@ -1,0 +1,27 @@
+.Queue {
+  align-self: center;
+  justify-self: center;
+}
+
+.Queue * + * {
+  margin-left: 10px;
+}
+
+
+.Queue input {
+  float: left;
+}
+
+.Queue input {
+  width: 30px;
+  text-align: center;
+}
+
+
+.Queue .solved {
+  background-color: chartreuse;
+}
+
+.Queue .unsolved {
+  background-color: orangered;
+}
